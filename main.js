@@ -85,3 +85,70 @@ while (1 <= num8 && num8 <= 20){
     console.log(num8);
     num8 = num8 - 3;
 }
+//String Challeneges//
+let result8 = challengeBanner(9);
+console.log(result8)
+
+//challlenge9//
+let num9 = 1;
+while (num9 <= 7){
+    console.log(num9 
+    + '. ' + 'Hello!');
+    num9 = num9 + 1;
+}
+let result9 = challengeBanner(10);
+console.log(result9)
+
+//challlenge10//
+let num10 = 1;
+let greetings = 'Ciao bella!'
+while (num10 <= 7){
+    console.log(num10
+    + '. ' + greetings);
+    num10 = num10 + 1;
+}
+
+let result10 = challengeBanner(11);
+console.log(result10)
+
+//challlenge11//??
+// let num11 = 1;
+// let greetings4 = 'Good-bye'
+// let greetings6 = 'Get out!'
+// while (1<= num11 <= 4){ 
+//     console.log(greetings4);
+//         num11 = num11 +1; 
+// } if (<4 num11 <= 11){
+//     console.log(greetings6);
+//     num11 = num11 + 1;
+// }  
+let result11 = challengeBanner(12);
+console.log(result11)
+
+//challlenge12//
+for (let letter of 'think') {
+    console.log(letter);
+  }
+
+let result12 = challengeBanner(13);
+console.log(result12)
+  
+//challlenge13//
+//   for (let letter of 'nobody') {
+//       console.log(letter);
+//     } 
+
+let result13 = challengeBanner(14);
+console.log(result13)
+  
+//challlenge14//
+function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+reverseString('hello');
+    
+
