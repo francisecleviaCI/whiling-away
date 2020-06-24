@@ -129,27 +129,32 @@ console.log(result11)
 //challenge12//
 for (let letter of 'think') {
     console.log(letter);
-  }
+}
 
 let result12 = challengeBanner(13);
 console.log(result12)
-  
-//challenge13//
-//   for (let letter of 'nobody') {
-//       console.log(letter);
-//     } 
+
+//challenge13//Not sure how this works. Found it on the web./
+function everyOther(string){
+let result = string.split("");
+console.log(result);
+for (var i = 0; i < string.length; i += 2) {
+string[i] = '';
+}
+}
+console.log(everyOther("Nobody")); 
 
 let result13 = challengeBanner(14);
 console.log(result13)
-  
+
 //challenge14//
-function reverseString(str) {
-    var newString = "";
-    for (var i = str.length - 1; i >= 0; i--) {
-        newString += str[i];
-    }
-    return newString;
-}
-reverseString('hello');
-    
+function reverse(str){
+let reversed = "";    
+for (var i = str.length - 1; i >= 0; i--){        
+reversed += str[i];
+}    
+
+
+console.log(reverse('francis'));
+} 
 
