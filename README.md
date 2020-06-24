@@ -2,7 +2,7 @@
 
 ### Setup
 
-For this exercise, we don't need to run tests. There arent' any! We will only use the command 
+For this exercise, we don't need to run tests. There aren't any! We will only use the command 
 `node main.js` in the terminal, and see what gets printed out. 
 
 
