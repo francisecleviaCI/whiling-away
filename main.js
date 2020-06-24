@@ -149,12 +149,14 @@ console.log(result13)
 
 //challenge14//
 function reverse(str){
-let reversed = "";    
-for (var i = str.length - 1; i >= 0; i--){        
-reversed += str[i];
-}    
+    let reversed = "";
+    for(let char of str){
+    reversed = char + reversed;
+    }
+    return reversed;
+}
 
 
 console.log(reverse('francis'));
-} 
+
 
